@@ -1,0 +1,281 @@
+/* utility classes */
+html{
+    font-size: 10px;
+}
+.h2-primary{
+    font-size: 1.8em;
+    font-family: montserrat;
+    font-weight: bold;
+    color: #ed7d3a;
+}
+.h2-secondary{
+    font-size: 4em;
+    font-family: ubuntu;
+    color: #ECF2FF;
+    font-weight: bolder;
+}
+.h2-tertiary{
+    font-size: 3em;
+    color: #ECF2FF;
+}
+.p-primary{
+    font-size: 1.5em;
+    font-family: poppins;
+    color: #FFA559;
+}
+.p-secondary{
+    font-size: 2em;
+    font-family: poppins;
+    color: #ECF2FF;
+}
+body{
+    background-color: #E5E0FF;
+}
+
+/* styling logo and navbar */
+#header{
+    background-color: #A5D7E8; 
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 20em;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 4px solid white;
+    padding: 5px 5px;
+    height: 7vh;
+    width:110%;
+    margin-left: -8px;
+    margin-top: -19px;
+}
+#logo{
+    /* border: 2px solid black; */
+    align-self: flex-start;
+    justify-self: flex-start;
+    
+}
+#logoimg{
+    margin-top: -20px;
+    height: 110px;
+    width: 110px;
+}
+#navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-self: flex-end; */
+}
+#navbar ul{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+}
+#navbar ul li{
+    padding: 10px 10px;
+    list-style: none;
+    font-size: 2em;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color:black
+}
+#navbar ul li a:hover{
+    color: white;
+}
+
+/* creating a wallpaper in background of text */
+#wallpaper{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-image: url(assets/wallpaper.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    background-position: center;
+    
+
+
+}
+.container{
+       /* border: 2px solid black; */
+       margin: 5px 0px;
+       width: 45%;
+       padding: 5px 10px;
+       /* height: 11vh; */
+       box-sizing: border-box;
+       position: relative;
+       left: 8vw;
+       top: 20vh;
+    
+}
+/* providing brands info */
+#products{
+    background-color: #19376D;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+
+}
+.products-info{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.products-info h4{
+    font-size: 3em;
+    font-family: poppins;
+    color: white;
+}
+/* creating box of products */
+.box{
+    /* background-color: white;
+    border: 2px solid black; */
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+    
+.item{
+    margin: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    /* border: 2px solid black;
+    background-color: black; */
+}
+.brands{
+    /* border: 10px solid white; */
+    border-radius: 20px;
+    height: 45vh;
+    width: 25vw;
+    margin-bottom: 20px;
+}
+
+
+/* company's information */
+#aboutus{
+    background-color: #19376D;
+    padding-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 8px;
+    
+
+}
+.info{
+        height: 9vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.para{
+    font-size: 2em;
+    font-family: alkatra;
+    color: #ECF2FF;
+    margin-top: -15px;
+    padding: 0px 10px;
+}
+span{
+    text-decoration: underline;
+    color: #57C5B6;
+
+}
+/* make in india */
+#makeinindia{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #57C5B6;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+
+}
+.quality-info{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 0px 10px;
+}
+.imgstyle{
+    height: 20vh;
+    width: 20vw;
+    object-fit: fill;
+    filter: invert(100%);
+}
+.quality-info p{
+    margin-top: -20px;
+}
+
+/* contacts styling */
+#footer{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+
+}
+
+.contactbox {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-flow: column wrap;
+    border-right:1px dotted white;
+    margin: 5px 0px;
+    padding-right: 25vw;
+
+}
+
+h3 {
+    font-size: 2.5em;
+    font-family: alkatra;
+    font-weight: bold;
+    color: white;
+}
+
+.details{
+    font-size: 1.5em;
+    font-family:ubuntu;
+    margin-top: -5px;
+    color: white;
+}
+
+/* social media handles */
+.smhandles {
+    width: 40%;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.smhandles a:hover{
+    transform: scale(1.09);
+}
+.imgsize {
+    height: 4vh;
+    width: 4vw;
+    object-fit: contain;
+    aspect-ratio: 5/2;
+    filter: invert(100%);
+}
+

@@ -1,0 +1,551 @@
+/* fixing font size and position of text in wallpaper img */
+@media only screen and (min-width:850px) and (max-width:1000px) {
+
+    .container {
+        position: relative;
+        left: 6vw;
+    }
+
+    .h2-primary {
+        font-size: 1.65em;
+    }
+
+    .p-primary {
+        font-size: 1.3em;
+    }
+
+    /* reducing padding-right of contact box */
+    .contactbox {
+        padding-right: 20vw;
+    }
+}
+
+/*  */
+@media only screen and (min-width:700px) and (max-width:849px) {
+
+    /* reducing column gap b/w logo and navbar */
+    #header {
+        column-gap: 7em;
+        height: 5.5vh;
+        border: 2.5px;
+    }
+
+    #logoimg {
+        margin-top: -25px;
+    }
+
+    #navbar ul {
+        padding: 7px;
+    }
+
+    #navbar ul li {
+        font-size: 1.5em
+    }
+
+    /* again fixing position and font size of text in img */
+    .container {
+        position: relative;
+        left: 4vw;
+    }
+
+    .h2-primary {
+        font-size: 1.5em;
+    }
+
+    .p-primary {
+        font-size: 1.1em;
+    }
+
+    /* reducing padding-right of contact box */
+    .contactbox {
+        padding-right: 15vw;
+    }
+
+    /* reducing the font-size of brands name */
+    .h2-tertiary {
+        font-size: 2em;
+    }
+
+    /* reducing font size of utility classes */
+    .h2-secondary {
+        font-size: 3.3em;
+    }
+
+    .p-secondary {
+        font-size: 1.3em;
+    }
+
+    /* reducing widths98 all section */
+    #products {
+        width: 99%;
+    }
+
+    #aboutus {
+        width: 99%;
+    }
+
+    #makeinindia {
+        width: 99%;
+    }
+
+    #footer {
+        width: 99%;
+    }
+
+    #wallpaper {
+        width: 99%;
+    }
+
+
+}
+
+/* header , wallpaper and product-info h4 */
+@media only screen and (min-width:600px) and (max-width:699px) {
+
+    /* maintaining the gap ,height and font size of logo and navbar */
+    #header {
+        column-gap: 7em;
+        height: 5.5vh;
+        border: 2px;
+    }
+
+    #logoimg {
+        margin-top: -25px;
+    }
+
+    #navbar ul {
+        padding: 6px;
+    }
+
+    #navbar ul li {
+        font-size: 1.5em;
+        padding: 10px 7px;
+    }
+
+
+    /* reducing the size of text and images in products section*/
+    .products-info h4 {
+        font-size: 2.5em;
+    }
+
+    /*maintaining the size n position of text in img  */
+    .container {
+        position: relative;
+        left: 2vw;
+        width: 35%;
+    }
+
+    .h2-primary {
+        font-size: 1.3em;
+    }
+
+    .p-primary {
+        font-size: .8em;
+    }
+
+    /* reducing widths of all section */
+    #products {
+        width: 99%;
+    }
+
+    #aboutus {
+        width: 99%;
+    }
+
+    #makeinindia {
+        width: 99%;
+    }
+
+    #footer {
+        width: 99%;
+    }
+
+    #wallpaper {
+        width: 99%;
+    }
+}
+
+/* contact us, about us and make in india*/
+@media only screen and (min-width:500px) and (max-width:699px) {
+
+    /* fixing the contact us section */
+    .contactbox {
+        padding-right: 10vw;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    .details {
+        font-size: 1.35em;
+        margin-top: -2px;
+    }
+
+    .imgsize {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    /* reducing the font-size of brands name */
+    .h2-tertiary {
+        font-size: 1.5em;
+    }
+
+    /* reducing font size of utility classes */
+    .h2-secondary {
+        font-size: 3em;
+    }
+
+    .para {
+        font-size: 1.3em;
+    }
+
+    .p-secondary {
+        font-size: 1em;
+    }
+}
+
+/* brands img size */
+@media only screen and (min-width:550px) and (max-width:699px) {
+    .brands {
+        height: 35vh;
+    }
+}
+
+/* header,wallpaper and product-info h4 section */
+@media only screen and (min-width:450px) and (max-width:599px) {
+
+    /* maintaining the gap ,height and font size of logo and navbar */
+    #header {
+        column-gap: 5em;
+        height: 3vh;
+        margin-left: -20px;
+        border: 1px;
+    }
+
+    #logoimg {
+        margin-top: -17px;
+        height: 70px;
+        width: 70px;
+    }
+
+    #navbar {
+        margin-top: -5px;
+    }
+
+    #navbar ul {
+        padding: 2px;
+    }
+
+    #navbar ul li {
+        font-size: 1.3em;
+        padding: 8px 5px;
+    }
+
+    /*maintaining the size n position of text in img  */
+    #wallpaper {
+        margin-top: 7px;
+        height: 40vh;
+        overflow: hidden;
+        width: 98%;
+    }
+
+    .container {
+        position: relative;
+        left: 5vw;
+        padding: 0px 5px;
+        width: 40%;
+    }
+
+    .h2-primary {
+        font-size: 0.92em;
+    }
+
+    .p-primary {
+        font-size: .6em;
+    }
+
+    /* reducing the size of text and images in products section*/
+    .products-info h4 {
+        font-size: 1.5em;
+    }
+
+    /* reducing widths of all section */
+    #products {
+        width: 98%;
+    }
+
+    #aboutus {
+        width: 98%;
+    }
+
+    #makeinindia {
+        width: 98%;
+    }
+
+    #footer {
+        width: 98%;
+    }
+}
+
+/* brands img size */
+@media only screen and (min-width:370px) and (max-width:549px) {
+    .brands {
+        height: 25vh;
+    }
+}
+
+/* contact us, about us and make in india*/
+@media only screen and (min-width:370px) and (max-width:499px) {
+
+    /* fixing the contact us section */
+    .contactbox {
+        padding-right: 5vw;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .details {
+        font-size: 1.1em;
+        margin-top: -2px;
+    }
+
+    .imgsize {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .imgstyle {
+        height: 15vh;
+    }
+
+    .quality-info p {
+        margin-top: -10px;
+    }
+
+    /* reducing the font-size of brands name */
+    .h2-tertiary {
+        font-size: 1.2em;
+    }
+
+    /* reducing font size of utility classes */
+    .h2-secondary {
+        font-size: 2.2em;
+    }
+
+    .para {
+        font-size: 1.1em;
+    }
+
+    .p-secondary {
+        font-size: .8em;
+    }
+}
+
+/* header , wallpaper section */
+@media only screen and (min-width:400px) and (max-width:449px) {
+    #header {
+        justify-content: baseline;
+        column-gap: 0em;
+        padding: 0px;
+        height: 5vh;
+    }
+
+    #logoimg {
+        margin-top: -8px;
+        height: 70px;
+        width: 70px;
+    }
+
+    #navbar {
+        margin-top: -2px;
+    }
+
+    #navbar ul li {
+        font-size: 1.3em;
+        padding: 5px 5px;
+    }
+
+    /* maintaining size */
+    #wallpaper {
+        margin-top: 7px;
+        height: 35vh;
+        /* overflow: hidden; */
+    }
+
+    .container {
+        position: relative;
+        left: 5vw;
+        top: 35vw;
+        padding: 0px 5px;
+        width: 40%;
+    }
+
+    .h2-primary {
+        font-size: 0.82em;
+    }
+
+    .p-primary {
+        font-size: .52em;
+    }
+
+    /* reducing the size of text and images in products section*/
+    .products-info h4 {
+        font-size: 1.5em;
+    }
+
+    /* reducing widths of all section */
+    #products {
+        width: 99%;
+    }
+
+    #aboutus {
+        width: 99%;
+    }
+
+    #makeinindia {
+        width: 99%;
+    }
+
+    #footer {
+        width: 99%;
+    }
+
+    #wallpaper {
+        width: 99%;
+    }
+}
+
+/* last breakpoint */
+/* header , wallpaper section */
+@media only screen and (max-width:399px) {
+    #header {
+        justify-content: baseline;
+        column-gap: 0em;
+        padding: 0px;
+        height: 5vh;
+    }
+
+    #logoimg {
+        margin-top: 0px;
+        height: 50px;
+        width: 50px;
+    }
+
+    #navbar {
+        margin-top: -2px;
+    }
+
+    #navbar ul li {
+        font-size: 1em;
+        padding: 5px 5px;
+    }
+
+    /* maintaining size */
+    #wallpaper {
+        margin-top: 7px;
+        height: 35vh;
+        /* overflow: hidden; */
+    }
+
+    .container {
+        position: relative;
+        left: 5vw;
+        top: 35vw;
+        padding: 0px 5px;
+        width: 40%;
+    }
+
+    .h2-primary {
+        font-size: 0.7em;
+    }
+
+    .p-primary {
+        font-size: .45em;
+    }
+
+    /* reducing the size of text and images in products section*/
+    .products-info h4 {
+        font-size: 1.3em;
+    }
+
+    /* reducing widths of all section */
+    #products {
+        width: 98%;
+    }
+
+    #aboutus {
+        width: 98%;
+    }
+
+    #makeinindia {
+        width: 98%;
+    }
+
+    #footer {
+        width: 98%;
+    }
+
+    #wallpaper {
+        width: 98%;
+    }
+}
+
+/* brands img size */
+@media only screen and (max-width:369px) {
+    .brands {
+        height: 20vh;
+    }
+}
+
+/* contact us, about us and make in india*/
+@media only screen and (max-width:369px) {
+
+    /* fixing the contact us section */
+    .contactbox {
+        padding-right: 5vw;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    .details {
+        font-size: .9em;
+        margin-top: -2px;
+    }
+
+    .imgsize {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .imgstyle {
+        height: 15vh;
+    }
+
+    .quality-info p {
+        margin-top: -10px;
+    }
+
+    /* reducing the font-size of brands name */
+    .h2-tertiary {
+        font-size: 1.2em;
+    }
+
+    /* reducing font size of utility classes */
+    .h2-secondary {
+        font-size: 1.7em;
+    }
+
+    .para {
+        font-size: 1.1em;
+    }
+
+    .p-secondary {
+        font-size: .8em;
+    }
+}
